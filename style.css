@@ -1,0 +1,95 @@
+@import 'https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap, 400, 700&display=swap';
+* {  
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 12px;
+	font-family: 'Quicksand', sans-serif;
+}
+a {
+	text-decoration: none;
+}
+/*Navigation*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: right;
+  margin-right: 50px;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+/*End Navigation*/
+.header {
+  text-align: center;
+  padding: 32px;
+}
+  .main {
+  text-align: center;
+  padding: 50px;
+  margin-top: 50%;
+}
+
+.hero-image {
+  background-image: url(./img/hero-bg.jpg);
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 690px;
+}
+.hero-text {
+  text-align: cleft;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+} 
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+.column img {
+  margin-top: 12px;
+  border-radius: 8px
+}
+
+.text-block {
+  text-align: cleft;
+  color: white;
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  top: 50%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+ 
+}
+.footer {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 50px;
+  margin-top: 50%;
+}
+ 
